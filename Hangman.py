@@ -38,7 +38,5 @@ def hangman_multiplayer(wrd):
 def hangman_single():
     hangman_multiplayer(words[random.randrange(len(words))])
 
-hangman_single()
-
 
             
